@@ -1,0 +1,104 @@
+#carousel{
+    margin-top: 5vh;
+    height: 90vh;
+  }
+  
+  .carousel-inner img{
+    height: 90vh;
+  }
+  
+  .d-flex{
+    justify-content: center;
+  }
+  
+  .carousel-control-prev-icon{
+    background-image: url(./Icons/Chevron-left.png);
+  }
+  
+  .carousel-control-next-icon{
+    background-image: url(./Icons/Chevron-right.png);
+  }
+  
+  .carousel-item{
+    background-color: #ffffd9;
+    width: auto;
+    margin-right: 0;
+  }
+
+  #countdown{
+    color: white;
+    background-color: black;
+  }
+
+  #countdown-date{
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+  }
+  
+  #countdown-time{
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  #countdown-text{
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+  }
+
+  .form-switch {
+   margin-left: 0;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 200px 50px auto;
+    align-content: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-left: 0.5rem;
+  }
+
+  .form-check-input{
+    margin-left: 0;
+  }
+
+  .pickupQuestion{
+    grid-template-columns: 300px 50px auto;
+  }
+
+  .outstationToggle{
+    font-size: medium;
+  }
+
+  .outstationToggleDisabled{
+    visibility: collapse;
+  }
+
+  .contact{
+    display: grid;
+  }
+
+  .playwrite{
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  #names{
+    margin-top: 8rem;
+  }
+
+  #RSVP>form{
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  
